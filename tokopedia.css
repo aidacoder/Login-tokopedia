@@ -2,7 +2,6 @@
     background-color: white;
     padding: 0;
     margin: 0;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Tajawal', sans-serif;
 }
 
@@ -51,7 +50,7 @@
 #teks1 {
  padding-top: 10px;
  color: grey;
- font-size: 20px;
+ font-size: 15px;
 
 }
 
@@ -82,7 +81,11 @@
     display: flex;
    color: rgb(9, 192, 9);
    font-weight: bold;
+   cursor: pointer;
    margin-left: 3px;
+}
+#masuk:hover{
+    color: red;
 }
 
 #teks3 {
@@ -109,7 +112,13 @@
     border-radius: 5px;
     margin-left: 30px;
     box-shadow:  0 0 2px  grey;  
+    cursor: pointer;
 }
+
+#facebook:hover {
+    background-color:gainsboro;
+}
+
 
 
 #facebook img {
@@ -117,14 +126,20 @@
     width: 25px;
     padding-top: 10px;
     padding-left: 5px;
+    cursor: pointer;
 
 }
+
 
 
 #f {
     margin-left: 10px;
     padding-top: 15px;
+    
 }
+
+
+
 
 #google {
     width: 70%;
@@ -134,9 +149,11 @@
     margin-left: 15px;
     border-radius: 5px;
     box-shadow:  0 0 2px  gray;
-    
+    cursor: pointer;
+}
 
-    
+#google:hover {
+    background-color: gainsboro;
 }
 
 #google img {
@@ -191,12 +208,13 @@
     color: gray;
 }
 
+
 #telepon {
     padding-top: 10px;
     margin-left: 30px;
-    
-
 }
+
+
 
 #telepon input {
     width: 80%;
@@ -205,8 +223,16 @@
     border-radius: 5px;
     padding-left: 5px;
     box-shadow:  0 0 2px  gray;
+    cursor: auto;
+}
+#telepon input:hover {
+    /* border: lawngreen; */
 }
 
+#telepon input:focus{
+    border-color: lawngreen;
+
+}
 
 #contoh {
     padding-top: 5px;
@@ -243,20 +269,30 @@
     padding-top: 10px;
     display: flex;
     font-size: 15px;
+    color:gray;
 }
 
-  #syarat {
+#syarat {
       color: green;
       display: flex;
       margin-right: 5px;
+      cursor: pointer;
   }
-
+#syarat:hover{
+    color: red;
+}
 
 #privasi {
     color: green;
     display: flex;
     margin-left: 5px;
+    cursor: pointer;
 }
+#privasi:hover{
+    color: red;
+}
+
+
 #footer {
     display: flex;
     margin-left: 130px;
@@ -267,6 +303,11 @@
     display:flex;
     color: green;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+#bantuan:hover{
+    color:red;
 }
 
 #garis {
